@@ -52,8 +52,8 @@ NOTES
 *remote repo is: https://github.com/drodri321/optimizely.git
 *so if required: 
 
-git init
-git clone https://github.com/drodri321/optimizely.git
+*git init
+*git clone https://github.com/drodri321/optimizely.git
 *however I have pulled and attached
 
 *need to pip install lightfm (& numpy, pandas)

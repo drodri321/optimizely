@@ -36,24 +36,24 @@ Once you are done, submit a pull request for evaluation.
 ---------------------------------------------------------
 
 
-AUTHOR
+### AUTHOR
 *David Rodrigues
 
 
-DATE
+### DATE
 *2021/10/28
 
 
-DESCRIPTION
+### DESCRIPTION
 *The below documents key steps I took to produce the recommendations.
 
 
-NOTES
+### NOTES
 *remote repo is: https://github.com/drodri321/optimizely.git
 *so if required: 
 
-*git init
-*git clone https://github.com/drodri321/optimizely.git
+- git init
+- git clone https://github.com/drodri321/optimizely.git
 *however I have pulled and attached
 
 *need to pip install lightfm (& numpy, pandas)
@@ -71,7 +71,7 @@ NOTES
 *My PC only has 2 cores.  If this is tested on a PC with more, suggest to up the number of threads in prediction function to match number of cores.  This will speed up processing time, but not essential.
 
 
-LIBRARIES
+### LIBRARIES
 a) recommender.reco_utils
 *I extracted from the below which amongst other things provides excellent evaluation metrics specific to recommenders.
 git init
@@ -98,15 +98,15 @@ f) ast.literal_eval
 *To extract text from nested lists.
 
 
-CLI
+### CLI
 python recsys.py --in-folder r'data/' --out-folder r'model/'
 
 
-NEXT STEPS
+### NEXT STEPS
 *Beyond the submission I would explore more item attributes, e.g. budget, production company.
 *Would be good to have data to profile users too, e.g. occupation, age.  LightFM can use these similar to how we used genre.
 *Explore other algos, e.g. Deep FM + RBM.
 *Aim is to enhance to precision + recall.
 
 ---------------------------------------------------------
-END
+*END*

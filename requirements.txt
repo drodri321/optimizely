@@ -1,0 +1,14 @@
+#see README.md for details
+*fire (0.4.0)
+*lightfm (1.16)
+*numpy (1.18.1)
+*pandas (1.0.3)
+*python (3.7.4)
+*recommenders.reco_utils
+
+#standard libraries:
+*ast
+*pickle
+*itertools
+*sys
+*os

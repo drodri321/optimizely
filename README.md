@@ -58,7 +58,7 @@ Once you are done, submit a pull request for evaluation.
 
 - need to pip install lightfm (& numpy, pandas)
 
-- I have a notebook which I used for development before writing up to the python module.  If required saved in 'misc' folder but essentially involved hyperparameter tuning and looks cleaner.  CAN ALTERNATIVELY RUN SAME CODE AS HERE VIA NOTEBOOK.
+- I have a notebook which I used for development before writing up to the python module.  If required saved in 'misc' folder but essentially involved hyperparameter tuning and looks cleaner.  **CAN ALTERNATIVELY RUN SAME CODE AS HERE VIA NOTEBOOK.**
 
 - I have only used 2 of the files in the Kaggle link: small ratings & metadata, and have only downloaded these.
 

@@ -1,2 +1,0 @@
-# optimizely
-recommender_assignment

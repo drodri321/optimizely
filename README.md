@@ -72,7 +72,7 @@ git clone https://github.com/drodri321/optimizely.git
 
 LIBRARIES
 a) recommender.reco_utils
-*I pulled from the below which amongst other things provides excellent evaluation metrics specific to recommenders.
+*I extracted from the below which amongst other things provides excellent evaluation metrics specific to recommenders.
 git init
 git clone https://github.com/microsoft/recommenders.git
 

@@ -104,6 +104,7 @@ f) ast.literal_eval
 
 ### NEXT STEPS
 - Beyond the submission I would explore more item attributes, e.g. budget, production company.
+- EDA would be useful to detect anomalies/messy cells.
 - Would be good to have data to profile users too, e.g. occupation, age.  LightFM can use these similar to how we used genre.
 - Explore other algos, e.g. Deep FM + RBM.
 - Aim is to enhance to precision + recall.

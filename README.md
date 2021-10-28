@@ -37,23 +37,23 @@ Once you are done, submit a pull request for evaluation.
 
 
 ### AUTHOR
-*David Rodrigues
+- David Rodrigues
 
 
 ### DATE
-*2021/10/28
+- 2021/10/28
 
 
 ### DESCRIPTION
-*The below documents key steps I took to produce the recommendations.
+- The below documents key steps I took to produce the recommendations.
 
 
 ### NOTES
 - remote repo is: https://github.com/drodri321/optimizely.git
 - so if required: 
 
-git init
-git clone https://github.com/drodri321/optimizely.git
+- git init
+- git clone https://github.com/drodri321/optimizely.git
 - however I have pulled and attached
 
 - need to pip install lightfm (& numpy, pandas)
@@ -74,11 +74,11 @@ git clone https://github.com/drodri321/optimizely.git
 ### LIBRARIES
 a) recommender.reco_utils
 - I extracted from the below which amongst other things provides excellent evaluation metrics specific to recommenders.
-git init
-git clone https://github.com/microsoft/recommenders.git
+- git init
+- git clone https://github.com/microsoft/recommenders.git
 
 - Specifically I chose precision + recall, but also has classics like ndcg & map:
-from reco_utils.evaluation.python_evaluation import precision_at_k, recall_at_k
+- from reco_utils.evaluation.python_evaluation import precision_at_k, recall_at_k
 
 - To keep tidy I only saved the reco_utils subdirectory as there are plenty of others.  As I have already done this, the git commands above are no longer required.
 
@@ -99,7 +99,7 @@ f) ast.literal_eval
 
 
 ### CLI
-python recsys.py --in-folder r'data/' --out-folder r'model/'
+- python recsys.py --in-folder r'data/' --out-folder r'model/'
 
 
 ### NEXT STEPS

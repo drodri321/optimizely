@@ -49,53 +49,53 @@ Once you are done, submit a pull request for evaluation.
 
 
 ### NOTES
-*remote repo is: https://github.com/drodri321/optimizely.git
-*so if required: 
+- remote repo is: https://github.com/drodri321/optimizely.git
+- so if required: 
 
-- git init
-- git clone https://github.com/drodri321/optimizely.git
-*however I have pulled and attached
+git init
+git clone https://github.com/drodri321/optimizely.git
+- however I have pulled and attached
 
-*need to pip install lightfm (& numpy, pandas)
+- need to pip install lightfm (& numpy, pandas)
 
-*I have a notebook which I used for development before writing up to the python module.  If required saved in 'misc' folder but essentially involved hyperparameter tuning and looks cleaner.  CAN ALTERNATIVELY RUN SAME CODE AS HERE VIA NOTEBOOK.
+- I have a notebook which I used for development before writing up to the python module.  If required saved in 'misc' folder but essentially involved hyperparameter tuning and looks cleaner.  CAN ALTERNATIVELY RUN SAME CODE AS HERE VIA NOTEBOOK.
 
-*I have only used 2 of the files in the Kaggle link: small ratings & metadata, and have only downloaded these.
+- I have only used 2 of the files in the Kaggle link: small ratings & metadata, and have only downloaded these.
 
-*Furthermore, to minimise space I have created an extracted (much smaller) version of the metadata file by selecting features.
+- Furthermore, to minimise space I have created an extracted (much smaller) version of the metadata file by selecting features.
 
-*Done on a MacBook.
+- Done on a MacBook.
 
-*End-to-end execution approx 30-40mins on my PC.
+- End-to-end execution approx 30-40mins on my PC.
 
-*My PC only has 2 cores.  If this is tested on a PC with more, suggest to up the number of threads in prediction function to match number of cores.  This will speed up processing time, but not essential.
+- My PC only has 2 cores.  If this is tested on a PC with more, suggest to up the number of threads in prediction function to match number of cores.  This will speed up processing time, but not essential.
 
 
 ### LIBRARIES
 a) recommender.reco_utils
-*I extracted from the below which amongst other things provides excellent evaluation metrics specific to recommenders.
+- I extracted from the below which amongst other things provides excellent evaluation metrics specific to recommenders.
 git init
 git clone https://github.com/microsoft/recommenders.git
 
-*Specifically I chose precision + recall, but also has classics like ndcg & map:
+- Specifically I chose precision + recall, but also has classics like ndcg & map:
 from reco_utils.evaluation.python_evaluation import precision_at_k, recall_at_k
 
-*To keep tidy I only saved the reco_utils subdirectory as there are plenty of others.  As I have already done this, the git commands above are no longer required.
+- To keep tidy I only saved the reco_utils subdirectory as there are plenty of others.  As I have already done this, the git commands above are no longer required.
 
 b) lightfm
-*Algo of choice - hybrid model which enables item (& user) attributes as inputs.
+- Algo of choice - hybrid model which enables item (& user) attributes as inputs.
 
 c) numpy, pandas, sys, os
-*Standard imports for mathematical functions, dataframe usage + filepath details.
+- Standard imports for mathematical functions, dataframe usage + filepath details.
 
 d) itertools
-*To list the films
+- To list the films
 
 e) pickle
-*To save the model
+- To save the model
 
 f) ast.literal_eval
-*To extract text from nested lists.
+- To extract text from nested lists.
 
 
 ### CLI
@@ -103,10 +103,10 @@ python recsys.py --in-folder r'data/' --out-folder r'model/'
 
 
 ### NEXT STEPS
-*Beyond the submission I would explore more item attributes, e.g. budget, production company.
-*Would be good to have data to profile users too, e.g. occupation, age.  LightFM can use these similar to how we used genre.
-*Explore other algos, e.g. Deep FM + RBM.
-*Aim is to enhance to precision + recall.
+- Beyond the submission I would explore more item attributes, e.g. budget, production company.
+- Would be good to have data to profile users too, e.g. occupation, age.  LightFM can use these similar to how we used genre.
+- Explore other algos, e.g. Deep FM + RBM.
+- Aim is to enhance to precision + recall.
 
 ---------------------------------------------------------
 *END*

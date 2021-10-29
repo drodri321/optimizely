@@ -189,8 +189,7 @@ if __name__ == '__main__':
   
   train_interactions, test_interactions = split_data(interactions)
   
-  #fire.Fire(model)
-  fire.Fire(model = model_data(train_interactions, item_features, rnk=25, alpha=0.25))
+  (model = model_data(train_interactions, item_features, rnk=25, alpha=0.25)
 
   test_idx, uids, iids, uid_map, iid_map = pre_prep(interactions, a, all_movie_genre, movie_genre)
   
@@ -204,5 +203,7 @@ if __name__ == '__main__':
   save_model(model, md)
   
   save_file(all_predictions, op)
+
+  #fire.Fire(model)
 
 #END
